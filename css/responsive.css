@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+  .nav-menu span{
+    display: block;
+  }
+  .nav-menu li{
+    display: none;
+  }
+  .banner-container{
+    flex-direction: column-reverse;
+  }
+  .banner-content, .banner-img{
+    width: 100%;
+  }
+  .shop-container{
+    flex-direction: column;
+  }
+  .shop-content,.shop-img{
+    width: 100%;
+  }
+  .row{
+    grid-template-columns: 1fr;
+  }
+}
