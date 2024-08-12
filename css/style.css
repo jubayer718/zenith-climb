@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 *{
   padding: 0;
   margin: 0;
@@ -7,7 +8,7 @@
 }
 
 body{
-    font-family: "Poppins", sans-serif;
+   font-family: "Bebas Neue", sans-serif;
 }
 
 .default-container{
@@ -57,12 +58,15 @@ nav{
   position: relative;
   
 }
+.banner-content{
+  width: 40%;
+}
 .banner-content span{
   color: #76C27E;
 }
 .banner-content h3{
-  font-size: 5rem;
-  font-weight: 600;
+  font-size: 6rem;
+  font-weight: 500;
   margin-bottom: 20px;
   line-height: 1em;
 }
@@ -131,6 +135,7 @@ line-height: 26px;
 
 
 }
+
 /* shope related style ends her */
 
 
